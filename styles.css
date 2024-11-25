@@ -1,0 +1,41 @@
+/* * {
+    outline: 2px solid red;
+} */
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.container {
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+li {
+    font-size: 18px;
+}
+
+/* Hero */
+
