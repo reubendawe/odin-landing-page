@@ -39,3 +39,47 @@ li {
 
 /* Hero */
 
+.hero-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 140px 0 140px 0;
+}
+
+.block-1 {
+    width: 500px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.block-2 {
+    width: 500px;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #898989;
+    flex-wrap: 0;
+    flex-shrink: 0;
+}
+
+.button {
+   background-color: #3882F6;
+   color: white;
+   width: 120px;
+   height: 35px;
+   border-radius: 8px;
+   padding: 0;
+   border: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-para {
+    margin-top: -30px;
+}
+
+
