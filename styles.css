@@ -82,6 +82,84 @@ h1 {
     margin-top: -30px;
 }
 
+/* Random info section */ 
+
+.random-info {
+    background-color: #E5E7EB;
+    padding: 50px 0 50px 0;
+}
+
+.random-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.random-parent {
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.random-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+}
+
+.blue-square {
+    width: 200px;
+    height: 200px;
+    border: 3px solid blue;
+    border-radius: 10px;
+}
+
+/* Quote */
+
+.quote-net {
+    background-color: #898989;
+}
+
+.quote-container {
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -20px;
+}
+
+.quote-inner {
+    width: 900px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-outer {
+    background-color: #898989;
+    display: flex;
+    justify-content: end;
+    padding-right: 275px;
+    padding-bottom: 140px;
+}
+
+.thor {
+    font-weight: 900px;
+    font-size: 24px;
+    color: #1F2937;
+}
+
 /* CTA section */
 
 .cta-container {
